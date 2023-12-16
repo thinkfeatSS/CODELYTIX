@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className=' flex flex-grow h-[90vh] justify-between md:px-20 lg:px-0  lg:pl-12 xl:pl-24 bg-[#F2F6FB] z-50 shadow-inner shadow-black'>
+    <div className=' flex flex-grow h-screen md:h-[90vh] justify-between md:px-20 lg:px-0  lg:pl-12 xl:pl-24 bg-[#F2F6FB] z-50 shadow-inner shadow-black'>
 
     <div className="flex lg:flex-1 flex-col gap-8 xl:gap-16 lg:w-[60%] xl:w-[45%] justify-center ">
       <h1 className="px-4 text-center font-bold md:text-left text-3xl leading-loose lg:text-4xl lg:leading-loose">

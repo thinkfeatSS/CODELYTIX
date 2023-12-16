@@ -3,7 +3,7 @@ import NavBar from "@/components/NavBar";
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="flex flex-col w-screen">
+    <main className="flex flex-col h-screen w-screen">
       <NavBar/>
       <Hero />
     </main>
